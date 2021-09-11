@@ -1,5 +1,6 @@
 # ExpoStyl
 Propozycja redesignu strony firmy ExpoStyl. Jest oparta na bootstrapowej templatce wizixo-1.2.0. 
+
   Projekt wymagał skonfigurowania wysyłania maili przy użyciu PHP w pliku contact-action.
 
   Oprócz tego została dokonana modyfikacja kodu JavaScript i jQuery, pierwotnie po powiększeniu obrazka w galerii, można było przeklikać do innej kategori stoisk co mogłoby wprowadzać użytkowanika w błąd, wynikało to z niewspółgrania wtyczek Isotope oraz fancybox.
