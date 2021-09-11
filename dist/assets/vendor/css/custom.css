@@ -1,0 +1,128 @@
+#consent-popup {
+    width: 30%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 2rem;
+    background-color: white;
+    background-size: cover;
+    transition: opacity 1s ease;
+    z-index: 100;
+    border: lightgray 1px solid;
+    border-radius: 2px;
+  }
+  
+  
+  .consent-hidden {
+    opacity: 0;
+    
+  }
+  
+  .cta {
+    flex: 1;
+    margin-top: 2rem;
+    padding: 2rem;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+  
+  .terms-button {
+    color: #fff;
+    padding: .5rem 1rem;
+    background-color: #000;
+    border: 0;
+    outline: 0;
+  }
+  
+  #accept {
+    margin: 16px 0px;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: lightgray;
+  }
+  
+  #contact-title {
+    padding: 15px;
+}
+
+  /* Responsiveness - start */
+  
+  .image2 {
+    display: none;
+    width: 85%;
+  }
+  
+  @media screen and (max-width: 1170px) {
+    .image1{
+      display: none;
+    }
+  
+    .image2{
+      display: block;
+    }
+  
+    .contact-info-top {
+      display: none;
+    }
+  
+    .lowest-widget {
+      display: none;
+    }
+  
+    .logo-2 {
+      
+    }
+  
+    .we-build-stands {
+      margin-top: 1rem;
+    }
+  
+    .we-are-specialists {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  
+    footer {
+      padding-top: 0rem;
+      
+    }
+
+    /* .custom-margin {
+        margin-top: 1rem;
+      } */
+  
+     #contact-title {
+          padding: 0px;
+      }
+  }
+  
+  @media screen and (max-width: 580px) {
+    /* Stands */
+  
+    /* .stands-banner {
+      min-height: 300px;
+    } */
+  
+  }
+  
+  
+  /* Responsiveness - finish */
+  
+  
+  .badge-2 {
+    padding: 1rem;
+  }
+  
+  .arrow-back-to-the-top {
+    z-index: 600;
+  }
+  
+  .my-badges {
+    padding: 1rem;
+  } 
+  
+
+.contact-page {
+  padding: 2rem 0 1.5rem 0;
+}

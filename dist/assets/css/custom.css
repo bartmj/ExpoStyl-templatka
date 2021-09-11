@@ -1,0 +1,164 @@
+#consent-popup {
+    width: 300px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 2rem;
+    background-color: white;
+    background-size: cover;
+    transition: opacity 1s ease;
+    z-index: 100;
+    border: lightgray 1px solid;
+    border-radius: 2px;
+  }
+  
+  
+  .consent-hidden {
+    display: none;
+    
+  }
+  
+  .cta {
+    flex: 1;
+    margin-top: 2rem;
+    padding: 2rem;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+  
+  .terms-button {
+    color: #fff;
+    padding: .5rem 1rem;
+    background-color: #000;
+    border: 0;
+    outline: 0;
+  }
+  
+  #accept {
+    margin: 16px 0px;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: lightgray;
+  }
+  
+  #contact-title {
+    padding: 15px;
+}
+  
+  
+  .badge-2 {
+    padding: 1rem;
+  }
+  
+  .arrow-back-to-the-top {
+    z-index: 600;
+  }
+  
+  .my-badges {
+    padding: 1rem;
+  } 
+  
+
+.contact-page {
+  padding: 2rem 0 1.5rem 0;
+}
+  
+
+ .fancybox-button--zoom {
+  display: none;
+ }
+
+ .innerpage-title {
+  font-size: 3rem;
+ }
+
+ .footer-padding {
+  padding-top: 3.5rem !important;
+ }
+
+
+   /* Responsiveness - start */
+  
+   .image2 {
+    display: none;
+    width: 85%;
+  }
+
+  /* Media query - end */
+  
+  /* Responsiveness - finish */
+
+  .iframe {
+    /*display: none;*/
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+
+      /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+
+      }
+        
+      /* Media Query for low resolution  Tablets, Ipads */
+      @media (max-width: 767px) {
+        #collage {
+          padding-top: 1em !important;
+        }
+      }
+        
+      /* Media Query for Tablets Ipads portrait mode */
+      @media (max-width: 1024px){
+        .innerpage-title {
+          font-size: 9vw;
+         }
+    
+         .footer-padding {
+          padding-top: 2rem
+      }
+    
+        .we-build-stands {
+          margin-top: 1.5rem;
+        }
+      }
+        
+      /* Media Query for Laptops and Desktops */
+      @media (max-width: 1280px){
+        .image1{
+          display: none;
+        }
+      
+        .image2{
+          display: block;
+        }
+      
+        .contact-info-top {
+          display: none;
+        }
+      
+        .lowest-widget {
+          display: none;
+        }
+      
+        .we-build-stands {
+          margin-top: 1rem;
+        }
+      
+        .we-are-specialists {
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+      
+        footer {
+          padding-top: 0rem;
+          
+        }
+      
+         #contact-title {
+              padding: 0px;
+        }
+      }
+        
