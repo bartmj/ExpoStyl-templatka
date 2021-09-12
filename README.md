@@ -9,4 +9,5 @@ Zmodyfikowany fragment kodu znajduje się w pliku dist/assets/js/functions.js od
   W celu wygenerowania kodu na galerie użyto Pythona.
   
   Teksty nie zostały zredagowane.
+  
   The texts have not been yet properly edited.
