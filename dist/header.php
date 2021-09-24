@@ -30,7 +30,7 @@
 						  <div class="dropdown-menu mt-2 shadow" aria-labelledby="dropdownLanguage">
 						  	<span class="dropdown-item-text">Select language</span>
 						  	<div class="dropdown-divider"></div>
-						    <a class="dropdown-item" href="pl/"><img class="dropdown-item-icon" src="../assets/images/flags/pl.svg" alt=""> polski</a>
+						    <a class="dropdown-item" href="/"><img class="dropdown-item-icon" src="../assets/images/flags/pl.svg" alt=""> polski</a>
 						    <a class="dropdown-item" href="../en/index.php"><img class="dropdown-item-icon" src="../assets/images/flags/uk.svg" alt=""> English</a>
 						  </div>
 						</div>
