@@ -5,9 +5,3 @@ Propozycja redesignu strony firmy ExpoStyl. Jest oparta na bootstrapowej templat
 
   Oprócz tego została dokonana modyfikacja kodu JavaScript i jQuery, pierwotnie po powiększeniu obrazka w galerii, można było przeklikać do innej kategori stoisk co mogłoby wprowadzać użytkowanika w błąd, wynikało to z niewspółgrania wtyczek Isotope oraz fancybox.
 Zmodyfikowany fragment kodu znajduje się w pliku dist/assets/js/functions.js od 63 do 106 linijki, po naciśnięciu przycisku z wyborem kategorii obrazki z innych kategorii są przenoszone do tabelki, aby nie obejmowała ich wtyczka fancybox, oprócz tego wciśnięcie przycisku powoduje podpięcie obrazków już będących w tabeli do elementu html.
-  
-  W celu wygenerowania kodu na galerie użyto Pythona.
-  
-  Teksty nie zostały zredagowane.
-  
-  The texts have not been yet properly edited.
